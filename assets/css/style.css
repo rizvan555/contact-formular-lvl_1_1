@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 350px;
+}
+
+#formular-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 325px;
+}
+h4 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+.star {
+  color: #ff0000;
+}
+input {
+  padding: 3px;
+  width: 325px;
+}
+input:hover {
+  outline: 1px solid #87cefa;
+}
+input:nth-of-type(1) {
+  margin-right: 15px;
+}
+.name input {
+  width: 47%;
+}
+.thema-box select {
+  width: 325px;
+  padding: 3px 210px 3px 5px;
+  background-color: rgb(246, 246, 246);
+}
+.thema-box select:hover {
+  outline: 1px solid #87cefa;
+}
+.textarea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  max-width: 325px;
+}
+#textarea:hover {
+  outline: 1px solid #87cefa;
+}
+#button {
+  width: 325px;
+  background-color: rgb(72, 149, 162);
+  color: #fff;
+}
+
+#button:hover {
+  background-color: rgb(13, 24, 49);
+}
